@@ -104,7 +104,8 @@ RFM segmentation.
 
 ---
 
-## Repository Structureretail-sql-analytics/
+## Repository Structure
+retail-sql-analytics/
 │
 ├── README.md
 │
