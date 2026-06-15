@@ -162,3 +162,36 @@ retail-sql-analytics/
 | PERCENTILE_CONT for median | Fulfilment metrics |
 | Regex filtering | Silver reviews |
 | Type casting | Entire Silver layer |
+
+File names match exactly — the README section I drafted will work as-is. Here it is again, ready to paste into your README (recommended placement: after "Key Findings", before "Tech Stack"):
+markdown---
+
+## Power BI Dashboard
+
+An interactive 5-page Power BI dashboard built on top of the Gold layer tables, 
+visualizing the key findings above.
+
+### Pages
+
+1. **Executive Overview** — revenue trends, state-level breakdown, and 
+   top-line KPIs
+2. **Regional Performance** — fulfilment days and on-time delivery rate 
+   by state
+3. **Product Performance** — category revenue breakdown and the 
+   revenue-vs-satisfaction risk analysis
+4. **Customer Segmentation (RFM)** — segment distribution and revenue 
+   contribution by segment
+5. **Cohort Retention** — monthly cohort retention heatmap
+
+### Screenshots
+
+![Executive Overview](Screenshots/01_executive_overview.png)
+![Regional Performance](Screenshots/02_regional_performance.png)
+![Product Performance](Screenshots/03_product_performance.png)
+![Customer Segmentation](Screenshots/04_customer_segmentation.png)
+![Cohort Retention](Screenshots/05_cohort_retention.png)
+
+The `.pbix` file is available in the `Powerbi/` folder — connect it to your 
+own PostgreSQL instance with the Gold tables loaded to explore interactively.
+
+---
