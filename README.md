@@ -1,6 +1,6 @@
-Retail Sales Analytics Pipeline
-End-to-End SQL Project | Medallion Architecture | PostgreSQL
-Project Overview
+# Retail Sales Analytics Pipeline
+# End-to-End SQL Project | Medallion Architecture | PostgreSQL
+# Project Overview
 
 This project is a production-style retail analytics pipeline built using PostgreSQL and a Medallion Architecture (Bronze → Silver → Gold).
 
