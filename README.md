@@ -25,7 +25,6 @@ BRONZE LAYER
 - Raw ingestion (all columns as VARCHAR)  
 - 9 tables (direct copy of source data)  
 - ~1.6M rows  
-
       ↓
 SILVER LAYER  
 - Cleaned and standardized data  
@@ -33,7 +32,6 @@ SILVER LAYER
 - Null handling and transformations  
 - Geographic normalization (AU states)  
 - 7 transformed tables  
-
       ↓
 GOLD LAYER  
 - Business-ready aggregated tables  
